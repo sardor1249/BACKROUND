@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Backround changer</title>
+</head>
+
+<body>
+    <h1>Lorem, ipsum dolor.</h1>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda asperiores, nostrum illo qui possimus beatae
+        nisi provident rem dolorum porro mollitia neque corrupti quasi iusto sed temporibus, maiores fugit distinctio?
+    </p>
+    <div class="form">
+        <input type="color" name="" id="">
+        <button onclick="changeBG()">Change</button>
+    </div>
+    <script>
+        const body=document.querySelector('body')
+        function changeBG() {
+            const color=document.querySelector('input').value;
+            body.style.backgroundColor=color;
+        }
+    </script>
+</body>
+
+</html>
